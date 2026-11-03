@@ -1,0 +1,85 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100%;
+}
+
+header, main, footer {
+    width:1040px;
+    margin:0 auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+}
+
+header{
+    height:120px;    
+}
+
+main{
+    padding-bottom: 100px;
+}
+
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+body {
+    background-color: mediumpurple;
+    color: white;
+}
+.main_img-float {
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+
+.services_img {
+    width: 240px;
+}
+
+.services_item {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+
+.services {
+    padding: 35px;
+    border: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1--invisible {
+    visibility: hidden;
+}
+
+.komanda {
+    text-align: center;
+    
+}
+
+.komanda_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
